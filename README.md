@@ -36,7 +36,7 @@
                     <h3>"Text Content"</h3>
                     <p id="paraText1"><b>Fermentum et sollicitudin ac orci. Congue eu consequat ac felis donec et.</b> Etiam tempor orci eu lobortis elementum nibh. <del>Sed blandit libero volutpat sed. Sit amet mauris commodo quis imperdiet massa.</del> Semper feugiat nibh sed pulvinar proin gravida. Semper viverra nam libero justo</p>
                     <p id="paraText2">nulla <i>fdgh;sahio</i>porttitor massa id. Nullam ac tortor vitae purus.<sub>fdkhfoidha</sub> Donec pretium vulputate sapien nec sagittis aliquam. Gravida quis blandit turpis cursus in hac habitasse</p>
-                    <a href="#linkSection" id="link2">link2 </a>
+
                 </section>
                 <section id="listSection">
                     <ol id="ol1" type="I">
@@ -46,30 +46,53 @@
                     </ol>
                 </section>
                 <section id="linkSection">
-                    <a href=" https://www.bournemouth.ac.uk" id="link1">link1</a>
+                    <a id="link1" href="https://www.bournemouth.ac.uk">link1</a>
+                    <a id="link2" href="#textSection">link2</a>
                 </section>
                 <section id="imageSection">
-                    <img src="images\sunset1.jpg" id="image1" alt="image of a sunset" width: 50%>
+                    <img src="images\sunset1.jpg" id="image1" alt="image of a sunset" width="50%">
                 </section>
-                <section id="formSection">
-                </section>
-                <section id="formSection">
-                    <form id="form1" method="GET" action="#">
-                        <input type="submit" <input type="text" name="textInput" value="Hello World!">
-                        <select name="cards">
-                            <option value="hearts">hearts</option>
-                            <option value="diamonds">diamonds</option>
-                            <option value="spades">spades</option>
-                            <option value="clubs">clubs</option>
-                            <input type="submit" value="Submit">
-                        </select>
-                    </form>
-                </section>
-                <section id="mediaSection">
-                    <video controls id="video1" source src="videos\video1.mp4" sour%ce src="videos\video1.ogg"></video>
+                <section id="tableSection">
+                    <table id="table1">
+                        <tr>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                        </tr>
+                    </table>
+                    </section>
+
+                    <section id="formSection">
+                        <form id="form1" method="GET" action="#">
+                            <input type="text" name="textInput" value="Hello World!">
+                            <select name="cards">
+                                <option value="hearts">hearts</option>
+                                <option value="diamonds">diamonds</option>
+                                <option value="spades">spades</option>
+                                <option value="clubs">clubs</option>
+                                <input type="submit" value="Submit">
+                            </select>
+                        </form>
+                    </section>
+                    <section id="mediaSection">
+                        <video id="video1" controls>
+                            <source src="videos\video1.ogg" type="video/ogg">
+                            <source src="video1.mp4" type="video/mp4">
+                            Your browser does not support the audio element.
+                        </video>
+                    </section>
                 </section>
             </section>
-        </section>
         
                    
                 
